@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EmoSpeech: guiding FastSpeech2 towards Emotional Text to Speech
+title: EmoSpeech\: guiding FastSpeech2 towards Emotional Text to Speech
 ---
 
 ### [Paper](https://openreview.net/pdf?id=LYgrzXwVsm) [Code](https://github.com/deepvk/emospeech)
