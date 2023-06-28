@@ -3,7 +3,9 @@ layout: default
 title: EmoSpeech: guiding FastSpeech2 towards Emotional Text to Speech
 ---
 
-[Paper](https://openreview.net/pdf?id=LYgrzXwVsm) [Code](https://github.com/deepvk/emospeech)
+# EmoSpeech: guiding FastSpeech2 towards Emotional Text to Speech
+
+### [Paper](https://openreview.net/pdf?id=LYgrzXwVsm) [Code](https://github.com/deepvk/emospeech)
 
 ## Abstract: 
 
@@ -23,12 +25,12 @@ expressiveness.
 
 ### Speaker 0011
 
-| Model                                 | Neutral                                                          | Angry                                               | Happy                                 | Sad                                    | Surprise                         |
-|:--------------------------------------|:-----------------------------------------------------------------|:----------------------------------------------------|---------------------------------------|----------------------------------------|----------------------------------|
-| _Sentence_                            | _The football teams give a tea party._                           | _Who is been repeating all that hard stuff to you?_ | _Rat came and replied on the leaves._ | _The football teams give a tea party._ | _As rich as Peter's son in law!_ |
-| original                              | <audio src="/wavs/original/1_22_0.wav" controls preload></audio> | nice                                                |                                       |                                        |                                  |
-| # 0 baseline (Expressive FastSpeech2) | good and plenty                                                  | nice                                                |                                       |                                        |                                  |
-| # 1 (0 + `eGeMAPS`)                   | good `oreos`                                                     | hmm                                                 |                                       |                                        |                                  |
-| # 2 (1 + `CLN`)                       | good `zoute` drop                                                | yumm                                                |                                       |                                        |                                  |
-| # 3 (1 + `CCA`)                       | good `zoute` drop                                                | yumm                                                |                                       |                                        |                                  |
-| **EmoSpeech** (4 + `JCU`)             | good `zoute` drop                                                | yumm                                                |                                       |                                        |                                  |
+| Model                                 | Neutral                                                            | Angry                                                            | Happy                                                           | Sad                                                             | Surprise                                                        |
+|:--------------------------------------|:-------------------------------------------------------------------|:-----------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
+| _Sentence_                            | _The football teams give a tea party._                             | _Who is been repeating all that hard stuff to you?_              | _Rat came and replied on the leaves._                           | _The football teams give a tea party._                          | _As rich as Peter's son in law!_                                |
+| original                              | <audio src="/wavs/original/1_6_0.wav" controls preload></audio>    | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
+| # 0 baseline (Expressive FastSpeech2) | <audio src="/wavs/baseline/1_6_0.wav" controls preload></audio>    | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
+| # 1 (0 + `eGeMAPS`)                   | <audio src="/wavs/model1/1_6_0.wav" controls preload></audio>      | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
+| # 2 (1 + `CLN`)                       | <audio src="/wavs/model2/1_6_0.wav" controls preload></audio>      | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
+| # 3 (1 + `CCA`)                       | <audio src="/wavs/model3/1_6_0.wav" controls preload></audio>      | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
+| **EmoSpeech** (4 + `JCU`)             | <audio src="/wavs/emospeech/1_6_0.wav" controls preload></audio>   | <audio src="/wavs/original/1_11_1.wav" controls preload></audio> | <audio src="/wavs/original/1_8_2.wav" controls preload></audio> | <audio src="/wavs/original/1_3_3.wav" controls preload></audio> | <audio src="/wavs/original/1_0_4.wav" controls preload></audio> |
