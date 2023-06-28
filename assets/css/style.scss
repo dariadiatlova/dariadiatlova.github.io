@@ -3,23 +3,8 @@
 
 @import "{{ site.theme }}";
 
-.main-content table {
-    display: block;
-    width: 200%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all;
-    -webkit-overflow-scrolling: touch
-}
 
-.btn+.btn {
-    margin-left: 0
-}
-
-.main-content hr {
-    height: 2px;
-    padding: 0;
-    margin: 0 0;
-    background-color: #eff0f1;
-    border: 0
+h1 {
+    font-size: 2em;
+    margin: 0 0
 }
