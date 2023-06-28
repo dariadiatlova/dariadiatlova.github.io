@@ -23,13 +23,13 @@ expressiveness.
 
 Please, refer to [section 5](https://openreview.net/pdf?id=LYgrzXwVsm) for detailed notation of the models.
 
-| ID        | Model                            |  
-|:----------|:---------------------------------|
-| #0        | Expressive FastSpeech2, baseline | 
-| #1        | #0 + `eGeMAPS` predictor         |
-| #2        | #1 + `CLN`                       |
-| #3        | #2 + `CCA`                       |
-| EmoSpeech | #3 + `JCU`                       |
+| ID                     | Model                            |  
+|:-----------------------|:---------------------------------|
+| #0                     | Expressive FastSpeech2, baseline | 
+| #1                     | #0 + `eGeMAPS` predictor         |
+| #2                     | #1 + `CLN`                       |
+| #3                     | #2 + `CCA`                       |
+| EmoSpeech              | #3 + `JCU`                       |
 
 ## Audio samples
 
@@ -48,15 +48,15 @@ Please, refer to [section 5](https://openreview.net/pdf?id=LYgrzXwVsm) for detai
 
 ### Speaker 0012
 
-| Model         | Neutral                                                             | Angry                                                            | Happy                                                                | Sad                                                                | Surprise                                                            |
-|:--------------|:--------------------------------------------------------------------|:-----------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------|
-| _Sentence_    | _All smile were real and the happier，the more sincere._             | _I thought you meant how old are you?_                           | _Let's make the noise a snake._                                      | _She is now choosing skirt to wear._                               | _The football teams give a tea party._                              |
-| original      | <audio src="/wavs/original/2_10_0.wav" controls preload></audio>    | <audio src="/wavs/original/2_2_1.wav" controls preload></audio>  | <audio src="/wavs/original/2_5_2.wav" controls preload></audio>      | <audio src="/wavs/original/2_4_3.wav" controls preload></audio>    | <audio src="/wavs/original/2_3_4.wav" controls preload></audio>     |
-| baseline      | <audio src="/wavs/baseline/2_10_0.wav" controls preload></audio>    | <audio src="/wavs/baseline/2_2_1.wav" controls preload></audio>  | <audio src="/wavs/baseline/2_5_2.wav.wav" controls preload></audio>  | <audio src="/wavs/baseline/2_4_3.wav" controls preload></audio>    | <audio src="/wavs/baseline/2_3_4.wav" controls preload></audio>     |
-| # 1           | <audio src="/wavs/model1/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model1/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model1/2_5_2.wav.wav" controls preload></audio>    | <audio src="/wavs/model1/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model1/2_3_4.wav" controls preload></audio>       |
-| # 2           | <audio src="/wavs/model2/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model2/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model2/2_5_2.wav.wav" controls preload></audio>    | <audio src="/wavs/model2/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model2/2_3_4.wav" controls preload></audio>       |
-| # 3           | <audio src="/wavs/model3/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model3/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model3/2_5_2.wav.wav" controls preload></audio>    | <audio src="/wavs/model3/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model3/2_3_4.wav" controls preload></audio>       |
-| **EmoSpeech** | <audio src="/wavs/emospeech/2_10_0.wav" controls preload></audio>   | <audio src="/wavs/emospeech/2_2_1.wav" controls preload></audio> | <audio src="/wavs/emospeech/2_5_2.wav.wav" controls preload></audio> | <audio src="/wavs/emospeech/2_4_3.wav" controls preload></audio>   | <audio src="/wavs/emospeech/2_3_4.wav" controls preload></audio>    |
+| Model         | Neutral                                                             | Angry                                                            | Happy                                                         | Sad                                                                | Surprise                                                            |
+|:--------------|:--------------------------------------------------------------------|:-----------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------|
+| _Sentence_    | _All smile were real and the happier，the more sincere._             | _I thought you meant how old are you?_                           | _Let's make the noise a snake._                               | _She is now choosing skirt to wear._                               | _The football teams give a tea party._                              |
+| original      | <audio src="/wavs/original/2_10_0.wav" controls preload></audio>    | <audio src="/wavs/original/2_2_1.wav" controls preload></audio>  | <audio src="/wavs/original/2_5_2.wav" controls preload></audio> | <audio src="/wavs/original/2_4_3.wav" controls preload></audio>    | <audio src="/wavs/original/2_3_4.wav" controls preload></audio>     |
+| baseline      | <audio src="/wavs/baseline/2_10_0.wav" controls preload></audio>    | <audio src="/wavs/baseline/2_2_1.wav" controls preload></audio>  | <audio src="/wavs/baseline/2_5_2.wav" controls preload></audio> | <audio src="/wavs/baseline/2_4_3.wav" controls preload></audio>    | <audio src="/wavs/baseline/2_3_4.wav" controls preload></audio>     |
+| # 1           | <audio src="/wavs/model1/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model1/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model1/2_5_2.wav" controls preload></audio> | <audio src="/wavs/model1/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model1/2_3_4.wav" controls preload></audio>       |
+| # 2           | <audio src="/wavs/model2/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model2/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model2/2_5_2.wav" controls preload></audio> | <audio src="/wavs/model2/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model2/2_3_4.wav" controls preload></audio>       |
+| # 3           | <audio src="/wavs/model3/2_10_0.wav" controls preload></audio>      | <audio src="/wavs/model3/2_2_1.wav" controls preload></audio>    | <audio src="/wavs/model3/2_5_2.wav" controls preload></audio> | <audio src="/wavs/model3/2_4_3.wav" controls preload></audio>      | <audio src="/wavs/model3/2_3_4.wav" controls preload></audio>       |
+| **EmoSpeech** | <audio src="/wavs/emospeech/2_10_0.wav" controls preload></audio>   | <audio src="/wavs/emospeech/2_2_1.wav" controls preload></audio> | <audio src="/wavs/emospeech/2_5_2.wav" controls preload></audio> | <audio src="/wavs/emospeech/2_4_3.wav" controls preload></audio>   | <audio src="/wavs/emospeech/2_3_4.wav" controls preload></audio>    |
 
 ### Speaker 0014
 
