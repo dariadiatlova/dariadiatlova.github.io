@@ -5,8 +5,6 @@ description: "https://openreview.net/pdf?id=LYgrzXwVsm"
 link: "https://openreview.net/pdf?id=LYgrzXwVsm"
 ---
 
-### [Paper](https://openreview.net/pdf?id=LYgrzXwVsm) [Code](https://github.com/deepvk/emospeech)
-
 ## Abstract: 
 
 State-of-the-art speech synthesis models try to get as close as
