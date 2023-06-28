@@ -11,3 +11,8 @@
     word-break: keep-all;
     -webkit-overflow-scrolling: touch
 }
+
+.main-content table th,.main-content table td {
+    padding: 0 0;
+    border: 1px solid #e9ebec
+}
