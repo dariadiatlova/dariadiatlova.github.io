@@ -3,7 +3,11 @@
 
 @import "{{ site.theme }}";
 
-.container {
-  margin-left: 2cm; /* Adjust the margin value as per your preference */
-  margin-right: 2cm;
+.main-content table {
+    display: block;
+    width: 200%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch
 }
