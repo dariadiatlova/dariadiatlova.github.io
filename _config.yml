@@ -1,5 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
 gem "github-pages", group: :jekyll_plugins
 links:
-  paper: "https://openreview.net/pdf?id=LYgrzXwVsm"
+  paper: "https://arxiv.org/abs/2307.00024"
   code: "https://github.com/deepvk/emospeech"
